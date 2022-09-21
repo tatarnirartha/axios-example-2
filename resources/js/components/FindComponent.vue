@@ -10,7 +10,7 @@
 export default {
     methods: {
         goBack(){
-            this.$router.go({name: 'home'})
+            this.$router.go(-1)
         },
         goHome(){
             this.$router.push({name: 'home'})
